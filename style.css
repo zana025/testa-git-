@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+#parent {
+  border: 5px solid black;
+  display: flex;
+  height: 200px;
+  gap: 20px;
+}
+
+.box {
+  background-color: green;
+  flex-grow: 1;
+}
